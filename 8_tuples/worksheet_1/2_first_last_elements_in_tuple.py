@@ -1,0 +1,5 @@
+n=(input("enter elements seperated by coma: "))
+data=tuple(n.split(","))
+print(data)
+print(f"first element is {data[0]}")
+print(f"last element if {data[len(data)-1]}")

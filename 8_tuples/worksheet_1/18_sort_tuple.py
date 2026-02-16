@@ -1,0 +1,6 @@
+n=input("enter elements seperated by coma: ")
+data=tuple(n.split(","))
+data=sorted(data)
+print(data)
+data=sorted(data,reverse=True)
+print(data)
